@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 900px;
+  height: 200px;
+}
+
+.post {
+  display: flex;
+  padding: 25px;
+  border: 2px solid rgb(255, 0, 0);
+  height: 60px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post_button {
+}
