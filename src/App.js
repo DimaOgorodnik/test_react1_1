@@ -17,7 +17,7 @@ function App() {
 
   const addNewPost = (e) => {
     e.preventDefault();
-
+    console.log();
     // Add the new post to the posts array
     const newPost = { id: posts.length + 1, title: value, body: value2 };
 
